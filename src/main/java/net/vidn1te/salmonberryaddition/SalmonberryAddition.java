@@ -1,6 +1,9 @@
 package net.vidn1te.salmonberryaddition;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.resources.sounds.SoundEventRegistration;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -11,16 +14,24 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.vidn1te.salmonberryaddition.item.ModCreativeModTabs;
+import net.vidn1te.salmonberryaddition.item.ModItems;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(salmonberryaddition.MOD_ID)
-public class salmonberryaddition {
+@Mod(SalmonberryAddition.MOD_ID)
+public class SalmonberryAddition {
     public static final String MOD_ID = "salmonberryaddition";
     public static final Logger LOGGER = LogUtils.getLogger();
 
     public SalmonberryAddition() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        IEventBus SoundEventRegistration = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeModTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -34,7 +45,8 @@ public class salmonberryaddition {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
+        if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

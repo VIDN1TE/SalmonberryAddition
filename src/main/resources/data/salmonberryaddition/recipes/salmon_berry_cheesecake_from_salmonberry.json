@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "UWU"
+  ],
+  "key": {
+    "#": {
+      "item": "regions_unexplored:salmonberry"
+    },
+    "U": {
+      "tag": "forge:milk/milk"
+    },
+    "W": {
+      "item": "farmersdelight:pie_crust"
+    }
+  },
+  "result": {
+    "item": "salmonberryaddition:salmon_berry_cheesecake"
+  }
+}

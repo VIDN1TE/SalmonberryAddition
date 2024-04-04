@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##U",
+    "##W"
+  ],
+  "key": {
+    "#": {
+      "item": "regions_unexplored:salmonberry"
+    },
+    "U": {
+      "item": "minecraft:sugar"
+    },
+    "W": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "salmonberryaddition:salmonberries_juice"
+  }
+}
