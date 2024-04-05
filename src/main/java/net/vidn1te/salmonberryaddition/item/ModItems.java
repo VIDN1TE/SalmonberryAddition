@@ -1,6 +1,5 @@
 package net.vidn1te.salmonberryaddition.item;
 
-import net.minecraft.world.item.MilkBucketItem;
 import net.vidn1te.salmonberryaddition.SalmonberryAddition;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -16,6 +15,15 @@ public class ModItems {
             () ->  new Item(new Item.Properties().food(ModFoods.SALMON_BERRY_CHEESECAKE)));
     public static final RegistryObject<Item> SALMONBERRIES_JUICE = ITEMS.register("salmonberries_juice",
             () ->  new ModDrinks((new Item.Properties()).food(ModFoods.SALMONBERRIES_JUICE).stacksTo(16)));
+
+    public static final RegistryObject<Item> SALMONBERRIES_JAM = ITEMS.register("salmonberries_jam",
+            () -> new Item(new Item.Properties().stacksTo(16)));
+    public static final RegistryObject<Item> APPLE_JAM = ITEMS.register("apple_jam",
+            () -> new Item(new Item.Properties().stacksTo(16)));
+    public static final RegistryObject<Item> MELON_JAM = ITEMS.register("melon_jam",
+            () -> new Item(new Item.Properties().stacksTo(16)));
+    public static final RegistryObject<Item> SWEET_BERRIES_JAM = ITEMS.register("sweet_berries_jam",
+            () -> new Item(new Item.Properties().stacksTo(16)));
 
 
     public static void register(IEventBus eventBus) {

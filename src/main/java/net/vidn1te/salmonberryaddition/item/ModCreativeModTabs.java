@@ -19,8 +19,10 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.SALMON_BERRY_CHEESECAKE.get());
                         pOutput.accept(ModItems.SALMONBERRIES_JUICE.get());
-
-
+                        pOutput.accept(ModItems.SALMONBERRIES_JAM.get());
+                        pOutput.accept(ModItems.APPLE_JAM.get());
+                        pOutput.accept(ModItems.MELON_JAM.get());
+                        pOutput.accept(ModItems.SWEET_BERRIES_JAM.get());
 
                     })
                     .build());

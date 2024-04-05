@@ -1,6 +1,11 @@
 {
-  "item.salmonberryaddition.salmon_berry_cheesecake": "Salmonberry cheesecake",
-  "item.salmonberryaddition.salmonberries_juice": "Salmonberries juice",
+  "item.salmonberryaddition.salmon_berry_cheesecake": "Salmonberry Cheesecake",
+  "item.salmonberryaddition.salmonberries_juice": "Salmonberries Juice",
+
+  "item.salmonberryaddition.salmonberries_jam": "Salmonberries Jam",
+  "item.salmonberryaddition.apple_jam": "Apple Jam",
+  "item.salmonberryaddition.melon_jam": "Melon Jam",
+  "item.salmonberryaddition.sweet_berries_jam": "Sweet Berries Jam",
 
   "creativetab.salmonberryaddition_tab": "Salmonberry Addition"
 }
