@@ -1,1 +1,1 @@
-https://cdn.modrinth.com/data/cached_images/2f08b48a726724108ce0fea4bee3bd0d9414ada8.png
+![Juice](https://cdn.modrinth.com/data/cached_images/2f08b48a726724108ce0fea4bee3bd0d9414ada8.png)
