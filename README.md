@@ -1,3 +1,5 @@
+This mod will not receive any further updates!
+
 ![Juice](https://cdn.modrinth.com/data/cached_images/2f08b48a726724108ce0fea4bee3bd0d9414ada8.png)
 **Salmonberry Addition** is an addon for modifications such as __Regions Unexplored__ and __Farmer's Delight__. He adds mainly juices and pastries made from salmon berries.
 
