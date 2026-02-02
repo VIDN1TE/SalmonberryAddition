@@ -9,5 +9,3 @@ I do this modification alone in my free time. The mod was made purely for myself
 
 
 ![Juice Craft](https://cdn.modrinth.com/data/Qm4JeAEX/images/38d375e021816a0c5cbfbe84cbe36eb32311dd6f.png)
-
-If you want to help develop the mod or find errors, then write to issues!
