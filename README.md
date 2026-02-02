@@ -7,7 +7,6 @@ I do this modification alone in my free time. The mod was made purely for myself
 
 ![Cheesecake Craft](https://cdn.modrinth.com/data/Qm4JeAEX/images/95bb6e504a026830cbc3fb4855d35874f76a6e73.png)
 
-I plan to add support with other addons for farmer's delight, as well as support with JEI
 
 ![Juice Craft](https://cdn.modrinth.com/data/Qm4JeAEX/images/38d375e021816a0c5cbfbe84cbe36eb32311dd6f.png)
 
